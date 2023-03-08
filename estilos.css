@@ -1,0 +1,58 @@
+
+   h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+ 
+  li {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 0 currentColor;
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+#referencias {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 0 currentColor;
+  }
+
+  #contacto {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 0 currentColor;
+  }
+  
+  html {
+    background-color: #00539F;
+  }
+  
+  body {
+    font-family: "arial", serif;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #E6E6FA;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 2px 0;
+    color: #00539F;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  img {
+    border: 2px solid black;
+    margin: 5px;
+    
+  }
+  
