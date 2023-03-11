@@ -18,16 +18,19 @@
     letter-spacing: 1px;
   }
 #referencias {
+  background-color: #1ab3b3;
     font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
     text-shadow: 1px 0 0 currentColor;
   }
 
-  #contacto {
+  #contacto,#formulario {
+    background-color: #1ab3b3;
     font-size: 15px;
     letter-spacing: 1px;
     text-shadow: 1px 0 0 currentColor;
+    width: 600px;
   }
   
   html {
@@ -53,6 +56,6 @@
   img {
     border: 2px solid black;
     margin: 5px;
-    
   }
+  
   
