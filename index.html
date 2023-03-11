@@ -15,17 +15,13 @@
 
         <img src="fotocv.jpg" alt="Foto del curriculum vitae.">
 <br>
-        <button type="button" id="boton_ocultar">Ocultar datos</button>
-        <button type="button" id="boton_mostrar">Mostrar datos</button>
-        
 
-        <p id="contacto">e-mail: matias_lugones@google.com
-        <br>Cel.: 011216151991991
+        <p id="contacto">Cel.: 011216151991991
+        <br>e-mail: matias_lugones@outlook.com
         <br>Dirección: Av. La Nada
         <br>Ciudad: Bahía Blanca
         <br>Provincia: Buenos Aires</P>
 
-        <script src="function.js"></script>
     
 <br>
     
@@ -34,15 +30,56 @@
     <p>Escuela de Enseñansa Técnica N°5: “Técnico Químico”</p>
     <p>Curso de “Desarrollo Front End” del programa  “Argentina Programa”</p>
           <li>Experiencia laboral</li>
-    <p>2013-2018: Química Industrial del Parque: Analisis químicos. Limpieza de elementos. Control de Calidad.</p>
-    <p>2022-Actual : Química Ambiental del Transporte: Control de calidad. Producción.</p>
+    <p>2005-2013: Química Industrial del Parque: Analisis químicos. Limpieza de elementos. Control de Calidad.</p>
+    <p>2013-Actual : Dow Argentina: Control de calidad. Producción.</p>
           <li>Vision</li>
     <p>Poder desarrollarme y continuar formandome para agregar valor a su empresa</p>
         </ul>
     <br>
-        <p id="referencias">Referencias:</p>
-        <p>Química Industrial del Parque - Ricardo Fuentes - Cel.:29157866531544</p>
-        <p>Química Ambiental del transporte - Fabio Anselmi - Cel.:2915165106056</p>
-    
+        <p id="referencias">Referencias:<br>
+        <A HREF="parque.html" target="_blank">Química Industrial del Parque</A> - Ricardo Fuentes - Cel.:29157866531544<br>
+        <A HREF="https://ar.dow.com/es-ar.html" target="_blank">Dow Argentina</A> - Fabio Anselmi - Cel.:2915165106056</p>
+
+        <button type="button" id="boton_mostrar">Mostrar recomedación</button>
+        <button type="button" id="boton_ocultar">Ocultar recomendación</button>
+        <br>
+        <br>
+       
+        <div hidden id="recomendacion">"Por medio de la presente informo que tuve la posibilidad de trabajar con Matías Lugones, 
+            quien fue mi asistente de laboratorio por quince años. Puedo afirmar que es una persona que se compromete mucho con el trabajo y que es muy responsable.
+            <br><br>
+            Además, cuenta con un currículum impresionante, ya que ha hecho pasantías en dos laboratorios con mucho prestigio internacional.
+            <br><br>
+            Por lo expresado anteriormente, lo recomiendo para este tipo de trabajo.
+            <br><br>
+            No dude en contactarse conmigo por cualquier consulta.
+            <br><br>
+            Atentamente,"
+            <br><br>
+            Fabio Anselmi - Supervisor de laboratorio de Analitica
+            <br><br>
+        </div>
+          <script src="function.js"></script>
+
+        <form action="mailto:matias_lugones@outlook.com" method="post" enctype="text/plain">
+
+            <div id="formulario" align="center"> </div>
+            <ul>
+             <li>
+               <label for="name">Nombre</label>
+               <input type="text" id="name" name="user_name" required />
+             </li>
+             <li>
+               <label for="mail">Asunto</label>
+               <input type="text" id="asunto" name="user_message" required />
+             </li>
+             <li>
+               <label for="msg">Mensaje</label>
+               <textarea id="msg" name="user_message" required></textarea>
+               <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+             </li>
+            </div>
 </body>
 </html>
